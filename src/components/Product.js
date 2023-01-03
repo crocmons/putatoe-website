@@ -139,21 +139,21 @@ const Product = () => {
          <Divider className='p-3 w-50'/>
         </div>
         <div className=' flex gap-3 mt-2 items-center p-3 rounded-md overflow-x-scroll w-full h-full' >
-          <div className='p-5 items-center rounded-md bg-white w-50 h-full'>
+          <div className='p-5 items-center rounded-md bg-white w-full h-full'>
           <img className="p-2 w-full h-full" src='https://storage.googleapis.com/putatoeapp/Image/testImage/TXK9RL5' alt="pimg" />
-          <span className='p-0 text-sm font-semibold'>Chatpate Kurkure</span>
+          <span className='p-0 text-sm font-semibold'>Name</span>
           </div>
           <div className='p-5 items-center rounded-md bg-white  w-full h-full'>
           <img className="p-2 w-full h-full" src='https://storage.googleapis.com/putatoeapp/Image/testImage/6KV3V5S' alt="pimg" />
-          <span className='p-0 text-sm font-semibold'>Namkeen</span>
+          <span className='p-0 text-sm font-semibold'>Name</span>
           </div>
           <div className='p-5 items-center rounded-md bg-white  w-full h-full'>
           <img className="p-2 w-full h-full" src='https://storage.googleapis.com/putatoeapp/Image/testImage/P826TNO' alt="pimg" />
-          <span className='p-0 text-sm font-semibold'>Mixed Fruit</span>
+          <span className='p-0 text-sm font-semibold'>Name</span>
           </div>
           <div className='p-5 items-center rounded-md bg-white  w-full h-full'>
           <img className="p-2 w-full h-full" src='https://storage.googleapis.com/putatoeapp/Image/testImage/P826TNO' alt="pimg" />
-          <span className='p-0 text-sm font-semibold'>Aloo Bhujia</span>
+          <span className='p-0 text-sm font-semibold'>Name</span>
           </div>
           
         </div>
