@@ -3,7 +3,7 @@ import React from 'react'
 
 const Product = () => {
   return (
-    <div>
+    <div className='cursor-pointer'>
         <div className='text-3xl font-semibold bg-teal-200 text-teal-900 m-5 p-3 rounded-sm'>
             <h1>Popular Service <br />
                 Products
@@ -109,21 +109,21 @@ const Product = () => {
          <h3>Laundry</h3>
          <Divider className='p-3 w-50'/>
         </div>
-        <div className=' flex gap-5 mt-2 justify-between rounded-md w-full h-full md:w-50 md:h-50 overflow-x-scroll' >
-          <div className='p-5 items-center rounded-md bg-white  w-full h-full md:w-50 md:h-50'>
-          <img className="p-2 w-full h-full md:w-50 md:h-50" src='https://pickmylaundry.in/images/Woolen/Blanket_Double_Canva.png' alt="pimg" />
-          <span className='p-0 text-sm font-semibold'>Almond Milk</span>
+        <div className=' flex gap-5 mt-2 items-center rounded-md overflow-x-hidden p-3' >
+          <div className='p-5 items-center rounded-md bg-white  w-50 h-60 '>
+          <img className="p-2 w-full h-full " src='https://pickmylaundry.in/images/Woolen/Blanket_Double_Canva.png' alt="pimg" />
+          <span className='p-0 text-sm font-semibold'>Blanket</span>
           </div>
-          <div className='p-5 items-center rounded-md bg-white  w-full h-full md:w-50 md:h-50'>
-          <img className="p-2 w-full h-full md:w-50 md:h-50" src='https://images-na.ssl-images-amazon.com/images/I/61IP7-onheL.jpg' alt="pimg" />
-          <span className='p-0 text-sm font-semibold'>Almond Milk</span>
+          <div className='p-5 items-center rounded-md bg-white w-50 h-60 '>
+          <img className="p-2 w-full h-full " src='https://images-na.ssl-images-amazon.com/images/I/61IP7-onheL.jpg' alt="pimg" />
+          <span className='p-2 text-sm font-semibold'>Coat</span>
           </div>
         </div>
         <div className='mt-2 items-center text-2xl font-semibold text-gray-400 p-5'>
          <h3>Sports</h3>
          <Divider className='p-3 w-50'/>
         </div>
-        <div className=' flex mt-2 p-3 rounded-md w-full h-full overflow-x-scroll' >
+        <div className=' flex mt-2 p-3 rounded-md w-50 h-60 overflow-x-scroll' >
           <div className='items-center rounded-md bg-white'>
           <img className="p-2" src='https://storage.googleapis.com/putatoeapp/Image/testImage/P5GCUXF' alt="pimg" />
           <span className='p-1 text-sm font-semibold'>Almond Milk</span>
@@ -138,8 +138,8 @@ const Product = () => {
          <h3>Cleaning & Household Needs</h3>
          <Divider className='p-3 w-50'/>
         </div>
-        <div className=' flex gap-3 mt-2 justify-between p-5 rounded-md w-full h-full overflow-x-scroll' >
-          <div className='p-5 items-center rounded-md bg-white  w-full h-full'>
+        <div className=' flex gap-3 mt-2 items-center p-3 rounded-md overflow-x-scroll w-full h-full' >
+          <div className='p-5 items-center rounded-md bg-white w-50 h-full'>
           <img className="p-2 w-full h-full" src='https://storage.googleapis.com/putatoeapp/Image/testImage/TXK9RL5' alt="pimg" />
           <span className='p-0 text-sm font-semibold'>Chatpate Kurkure</span>
           </div>

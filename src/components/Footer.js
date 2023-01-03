@@ -6,7 +6,7 @@ import {SlUserFollow} from "react-icons/sl"
 const Footer = () => {
   return (
     <div className='relative cursor-pointer'>
-        <div className='md:hidden flex sticky items-center gap-10 text-teal-700 mt-5 text-3xl p-2'>
+        <div className='md:hidden flex sticky items-center gap-10 text-teal-700 mt-5 text-3xl p-5'>
             <IoMdHome />
             <IoMdPeople />
             <img 

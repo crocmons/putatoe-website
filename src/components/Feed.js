@@ -15,7 +15,7 @@ import OpacityIcon from '@mui/icons-material/Opacity';
 
 const Feed = () => {
   return (
-    <div className='relative rounded-md flex xs:flex-col items-center flex-shrink justify-between m-3 gap-10 bg-white z-30 p-10 text-3xl text-teal-600 overflow-x-scroll'>
+    <div className='relative rounded-md flex xs:flex-col items-center flex-shrink justify-between m-3 gap-10 bg-white z-30 p-10 text-3xl text-teal-600 overflow-x-scroll cursor-pointer'>
      <SendToMobileIcon />
      <TvOutlinedIcon />
      <AccountBalanceIcon />

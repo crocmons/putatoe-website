@@ -3,8 +3,8 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from 'react-responsive-carousel';
 function ProductFeed() {
   return (
-    <div className='relative mt-5'>
-        <div className='absolute mt-3 w-32 h-32 z-20'/>
+    <div className='relative mt-5 cursor-pointer overflow-y-hidden'>
+        <div className='absolute mt-3 w-20 h-20 z-20'/>
      <Carousel
      autoPlay
      infiniteLoop

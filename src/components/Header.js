@@ -4,7 +4,7 @@ import { AiOutlineShoppingCart } from 'react-icons/ai'
 const Header = () => {
   return (
     <div>
-<header>
+<header className='cursor-pointer'>
       {/* Top Navbar */}
 
         <div className='text-2xl flex gap-3 space-x-4 justify-between items-center bg-amazonBlue p-1 flex-grow py-2 bg-teal-600 text-white'>
